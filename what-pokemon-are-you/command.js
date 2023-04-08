@@ -56,7 +56,7 @@ var number = Math.abs(hash) % nb_pokemon + 1;
 var url = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/' + number + '.png';
 $("#img-pokemon").attr("src", url);
 
-var audio = new Audio('https://github.com/Galdormin/wizebot-commands/raw/dev-command-pokemon/what-pokemon-are-you/resources/cries/' + number + '.ogg');
+var audio = new Audio('https://github.com/Galdormin/wizebot-commands/raw/main/what-pokemon-are-you/resources/cries/' + number + '.ogg');
 audio.volume = 0.2;
 audio.play();
 
